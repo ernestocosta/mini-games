@@ -1,26 +1,3 @@
-/*
-resumo de como funciona o programa, primeiramente foi criado o cabeçalho onde fica as bibliotecas e variaveis, logo 
-depois foi criado um do{}while para o laço do menu dentro dele foi criado um printf para as opções e um scanf.
-e um switch com quatro case onde irar ficar os programas para cada jogo.
-
-no case 1: Pergunta e resposta foi criado um do{}while para quando acabar o jogo o usuario te a opção de escolher entre 
-jogar de novo ou voltar ao menu, dentro do laço do case 1 tem dois printf para da as boas vindas ao jogo e system pause 
-tem um printf para cada pergunta e um scanf para cada respota do usuario foi criado também um fflush(stdin) que tem a 
-função de limpar o buffer do teclado e um getchar() que tem a função de retorna um valor, para o programa retornar para 
-o usuario se esta correto foi criado um if{} else para cada pergunta também.
-
-no case 2: Adivinhe o número foi criado um do{}while para quando acabar o jogo o usuario te a opção de escolher entre 
-jogar de novo ou voltar ao menu, dentro do laço do case 2  srand(time(NULL)) e rand()para gerar valores aleatorios, após 
-isso foi criado dosi printf para da as boas vindas ao jogo e outro do{}while com um printf e scanf para o usuario digitar 
-um valor e dentro de do{}while mais interno tem um if{}else e um if com sua codições para informar se o numero e maior 
-ou menor do numero que o computador escolheu.
-
-no case 3: Olho de cobra  foi criado dos printf para da as boas vinda ao usuario, depois foi criado dois printf para os
-usuarios escreverem seu nome logo em seguida foi criado um while onde vai determinar quem vai começar o jogo e um outro 
-while nesse while mais interno tem um  srand(time(NULL)) e dois rand() um para cada dado e tem cinco if com suas condições 
-e outro if e else para escolher se o usuario vai querer jogar novamente ou voltar ao menu.
-
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
